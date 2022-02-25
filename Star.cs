@@ -12,7 +12,8 @@ class Star{
         starSprite[2] = @"  \  ||  / ";
         starSprite[3] = @"  /__  __\";
         starSprite[4] = @"     \/   ";
-        starSprite[5] = @"          "; 
+        starSprite[5] = @"          ";
+
     }
     public void DrawSprite() {
         string spaces = " ";

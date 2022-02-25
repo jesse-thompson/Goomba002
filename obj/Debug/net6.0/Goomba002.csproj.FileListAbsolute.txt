@@ -13,3 +13,18 @@
 /home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/obj/Debug/net6.0/Goomba002.pdb
 /home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/obj/Debug/net6.0/Goomba002.genruntimeconfig.cache
 /home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/obj/Debug/net6.0/ref/Goomba002.dll
+/home/grizzlyactual/VSProjects/Goomba002/bin/Debug/net6.0/Goomba002
+/home/grizzlyactual/VSProjects/Goomba002/bin/Debug/net6.0/Goomba002.deps.json
+/home/grizzlyactual/VSProjects/Goomba002/bin/Debug/net6.0/Goomba002.runtimeconfig.json
+/home/grizzlyactual/VSProjects/Goomba002/bin/Debug/net6.0/Goomba002.dll
+/home/grizzlyactual/VSProjects/Goomba002/bin/Debug/net6.0/Goomba002.pdb
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.csproj.AssemblyReference.cache
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.GeneratedMSBuildEditorConfig.editorconfig
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.AssemblyInfoInputs.cache
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.AssemblyInfo.cs
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.csproj.CoreCompileInputs.cache
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.dll
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/refint/Goomba002.dll
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.pdb
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/Goomba002.genruntimeconfig.cache
+/home/grizzlyactual/VSProjects/Goomba002/obj/Debug/net6.0/ref/Goomba002.dll

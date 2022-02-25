@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/Goomba002.csproj": {}
+    "/home/grizzlyactual/VSProjects/Goomba002/Goomba002.csproj": {}
   },
   "projects": {
-    "/home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/Goomba002.csproj": {
+    "/home/grizzlyactual/VSProjects/Goomba002/Goomba002.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/Goomba002.csproj",
+        "projectUniqueName": "/home/grizzlyactual/VSProjects/Goomba002/Goomba002.csproj",
         "projectName": "Goomba002",
-        "projectPath": "/home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/Goomba002.csproj",
+        "projectPath": "/home/grizzlyactual/VSProjects/Goomba002/Goomba002.csproj",
         "packagesPath": "/home/grizzlyactual/.nuget/packages/",
-        "outputPath": "/home/grizzlyactual/Documents/BSU/COMP 340/Goomba002/obj/",
+        "outputPath": "/home/grizzlyactual/VSProjects/Goomba002/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/grizzlyactual/.nuget/NuGet/NuGet.Config"
