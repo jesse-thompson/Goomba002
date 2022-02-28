@@ -18,9 +18,13 @@ class GoombaWalk{
 
 
     public void StartAnimation(){
-        for( int i = 0; i < 10; i++){    // i < (total times posX change)
+        int frameNum = 20;
+        int sleepTime = 200;
+        for( int i = 0; i < frameNum; i++){    // i < (total times posX change)
+            Console.Clear();
             DrawFrame();
             goomba.UpdatePos();
+            Thread.Sleep(sleepTime);
         }
 
         // posX will show as 8, but will update to value of 12, so next run will show at 12
@@ -30,9 +34,11 @@ class GoombaWalk{
         // change direction of goomba; true = walk to right, false = left
         goomba.changeDir(); // changes between true and false
         goomba.UpdatePos(); // updates posX to prevent drawing in wrong pos on first DrawSprite()
-        for( int i = 0; i < 10; i++){    // i < (total times posX change)
+        for( int i = 0; i < frameNum; i++){    // i < (total times posX change)
+            Console.Clear();
             DrawFrame();
             goomba.UpdatePos();
+            Thread.Sleep(sleepTime);
         }
     }
 }
