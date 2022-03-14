@@ -2,7 +2,7 @@
 class Goomba{
     private int posX;
     private int speed;
-    private string[] goombaSprite;
+    protected string[] goombaSprite;
     private bool direction;
 
     // constructs Goomba object with speed value as input parameter
@@ -14,7 +14,7 @@ class Goomba{
         direction = true;   // if true, move right; if false, move left
     }
 
-    private void SetSprite(){
+    protected virtual void SetSprite(){
     goombaSprite[0] = @"     ________  ";
     goombaSprite[1] = @"    /        \ ";
     goombaSprite[2] = @"   /  \    /  \ ";
