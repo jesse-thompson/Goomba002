@@ -12,5 +12,3 @@ Console.Clear();
 gWalk.StartAnimation();
 // GoombaWalk gWalkAni = new GoombaWalk(star, pGoomba, ground);
 // pGoomba.DrawSprite();
-
-
