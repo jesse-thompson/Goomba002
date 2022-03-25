@@ -1,6 +1,7 @@
 class GoombaAdv : Goomba{
     private string[] goombaSpriteLeftFoot = new string[10];
     private string[] goombaSpriteRightFoot = new string[10];
+    private bool foot = true;
     
     public GoombaAdv(int speed) : base(speed){
         goombaSpriteLeftFoot = new string[10];
@@ -33,17 +34,22 @@ class GoombaAdv : Goomba{
     }
 
     // draws the sprite
-    public override void DrawSprite(){          
+    public override void DrawSprite(){   
         string spaces = " ";
         for (int i = 0; i < posX; i++) {
             spaces += " ";
         }
-        foreach(string eachLine in goombaSpriteLeftFoot){   // draws entire left food goomba
-            Console.WriteLine(spaces + eachLine);
+        if (foot){
+            foreach(string eachLine in goombaSpriteLeftFoot){   // draws entire left food goomba
+                Console.WriteLine(spaces + eachLine);
+            }
+            foot = !foot;
         }
-        Console.Clear();
-        foreach(string eachLine in goombaSpriteRightFoot){  // draws entire right foot goomba
-            Console.WriteLine(spaces + eachLine);
+        else{
+            foreach(string eachLine in goombaSpriteRightFoot){  // draws entire right foot goomba
+                Console.WriteLine(spaces + eachLine);
+            }
+            foot = !foot;
         }
     } 
 }
