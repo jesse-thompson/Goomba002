@@ -4,9 +4,6 @@ class GoombaAdv : Goomba{
     private bool foot = true;
     
     public GoombaAdv(int speed) : base(speed){
-        goombaSpriteLeftFoot = new string[10];
-        goombaSpriteRightFoot = new string[10];
-        SetSprite();
     }
 
     protected override void SetSprite(){
